@@ -10,3 +10,4 @@ THIS PROJECT IS NOT MADE AS COMPETITTION TO UBER AND THE LIKES AS I AM SURE IS C
 THIS IS AN ATTEMPT AT A COST EFFECTIVE AND SIMPLER ALTERNATIVE FOR USE IN AREAS WHERE THERE ARE INTERNET, EDUCATION, TECHNOLOGICAL AND ECONOMIC CHALLENGERS FACED.
 I am relatively new to programming and this project is a growing one. 
 Kindly contact me if you have any recommendations, changes or corrections you have both for this project and in programming as a whole. I will be ever grateful
+Contact me via email at natadjadeh@gmail.com
