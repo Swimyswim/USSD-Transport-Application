@@ -327,12 +327,12 @@ if (isset($text)){
                         
 
                         // Your Till credentials
-                        $till_username = "cb177ea4013d4a0ea047f86f7f0296";
-                        $till_api_key = "1ad39f853c72d032c00f837163c8fb15ddcc52a5";
+                        $till_username = "************************************";
+                        $till_api_key = "***********************************";
 
                         // The Till project body
                         $till_project = [
-                            "phone" => ["+16133043512"], //riders phonenumber
+                            "phone" => ["driverphonenumber"], //riders phonenumber
                             "text" => "Hello, Thank you, you can contact your driver on " .$phoneNumber//. " Your riders destination is " .$row['riderdestination']
                         ];
 
@@ -358,12 +358,12 @@ if (isset($text)){
                         
 
                         //Driver Texts
-                        $till_username = "cb177ea4013d4a0ea047f86f7f0296";
-                        $till_api_key = "1ad39f853c72d032c00f837163c8fb15ddcc52a5";
+                        $till_username = "********************************";
+                        $till_api_key = "**********************************";
 
                         // The Till project body
                         $till_project = [
-                            "phone" => ["+16133043512"], //drivers phonenumber
+                            "phone" => ["driverphonenumber"], //drivers phonenumber
                             "text" => "Hello, Thank you, you can contact your rider on " .$row['riderphonenumber']. " Your riders destination is " .$row['riderdestination']. "The Destinations are 1. Jean Nelson Hall 
                             2. Limann 
                             3. Night Market 
@@ -580,12 +580,12 @@ if (isset($text)){
 
 
                         // Your Till credentials
-                        $till_username = "cb177ea4013d4a0ea047f86f7f0296";
-                        $till_api_key = "1ad39f853c72d032c00f837163c8fb15ddcc52a5";
+                        $till_username = "**********************************8";
+                        $till_api_key = "***********************************************";
 
                         // The Till project body
                         $till_project = [
-                            "phone" => ["+16133043512"],//drivers number 
+                            "phone" => ["driverphonenumber"],//drivers number 
                             "text" => "Hello, " .$phoneNumber. " Located at " .$part2[1]. " With destination " .$part2[2]. " has requested you specifically, please contact the rider for further enquiry"
                         ];
 
@@ -616,12 +616,12 @@ if (isset($text)){
 
 
                         // Your Till credentials
-                        $till_username = "cb177ea4013d4a0ea047f86f7f0296";
-                        $till_api_key = "1ad39f853c72d032c00f837163c8fb15ddcc52a5";
+                        $till_username = "************************************";
+                        $till_api_key = "*****************************************";
 
                         // The Till project body
                         $till_project = [
-                            "phone" => ["+16133043512"],//drivers number 
+                            "phone" => ["driverphonenumber"],//drivers number 
                             "text" => "Hello, Kindly re-enter the driver's ID again, since the one entered is incorrect"
                         ];
 
