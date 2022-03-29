@@ -1,0 +1,45 @@
+<?php
+
+
+require "vendor/autoload.php";
+
+// Load Guzzle HTTP Client
+use Guzzle\Http\Client;
+
+// Your Till credentials
+$till_username = "**********************************";
+$till_api_key = "********************************";
+// Credentials hidden to prevent access to my account 
+
+// The Till project body
+$till_project = [
+    "phone" => ["16133043512"],
+    "text" => "Hello, Thank you, you can contact your rider on  123456789 Your riders destination is  Legon, The Destinations are 1. Jean Nelson Hall 
+    2. Limann 
+    3. Night Market 
+    4. Sarbah Hall 
+    5. Commonwealth Hall 
+    6. Computer Science Department 
+    7. Business School"
+];
+
+// Execute HTTP request
+$client = new GuzzleHttp\Client();
+try {
+
+    $res = $client->request(
+        "POST", 
+        "https://platform.tillmobile.com/api/send?username=".$till_username."&api_key=".$till_api_key,
+        ["body" => json_encode($till_project)]
+    );
+
+    // Till HTTP response body
+    echo $res->getBody();
+
+} catch(Exception $e) {
+
+    echo $e;
+
+}
+
+?>
